@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Cluster launchers and logs (environment-specific; may embed tokens)
+*.sh
+*.slurm
+slurm_scripts/
+logs/
+*.out
+*.err
+
+# Models, checkpoints, datasets, caches (large / regenerable)
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+*.arrow
+data/
+eval_template/
+**/runs/
+.hf_home/
+.cache/
+.uv_cache/
+.pip_cache/
+.triton/
+
+# Secrets
+.env
+*.token
+
+# OS
+.DS_Store
+Thumbs.db

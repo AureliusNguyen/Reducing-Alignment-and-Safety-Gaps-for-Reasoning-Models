@@ -1,0 +1,11 @@
+ALLOWED_G = (2, 4, 8, 16)
+L_MAX = 4096
+E = 64
+DELTA = 96  # near-cap margin for cap-hit detection
+PG_TARGET = 0.30  # target per-group straggler probability
+HIST_WINDOW = 128  # sliding window for length history
+LEN_P = 0.95  # percentile for effective length calculation
+REASON_START_T = "<reasoning>"
+REASON_END_T = "</reasoning>"
+SOL_START_T = "<answer>"
+SOL_END_T = "</answer>"
